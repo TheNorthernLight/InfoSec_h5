@@ -41,17 +41,17 @@ while public-key cryptography is better for key management and protocols.
 ![Classes of Algorithms](1.JPG)
 
 
-#### Link-by-Link Encryption
+#### Link-by-Link Encryption:
 
 ![Figure 10.1 Link encryption](2.JPG)
 
 
-#### End-to-End Encryption
+#### End-to-End Encryption:
 
 ![Figure 10.2 End-to-end encryption](3.JPG)
 
 
-#### Combining the Two
+#### Combining the Two:
 
 
 
