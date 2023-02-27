@@ -15,7 +15,7 @@
 * It is assumed that the NSA can read any message it chooses, but due to limited resources, it cannot read all messages it wants.
 
 
-### Algorithms for Export:
+#### Algorithms for Export:
 
 * Algorithms for export out of the United States must be approved by the U.S. government.
 * It is widely believed that these export-approved algorithms can be broken by the NSA.
