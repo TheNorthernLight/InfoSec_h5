@@ -95,7 +95,7 @@ Encrypting computer data for storage comes with various challenges such as the p
 
 
 
-## y) Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
+## y) Choose a password manager and explain: 
 
 ### What treaths does it protect against?
 
