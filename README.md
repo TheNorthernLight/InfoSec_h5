@@ -43,6 +43,15 @@ while public-key cryptography is better for key management and protocols.
 
 #### Link-by-Link Encryption:
 
+
+* Link-by-link encryption is very effective, as it will encrypt all data, including the routing information and protocol information.
+* This type of encryption is also called traffic-flow security since it implemented in the physical layer of the network.
+* Security does not depend on any traffic management techniques. Thats why the key management is simple since only the two endpoints of the line need a common key
+* The biggest problem with encryption at the physical layer is that each physical link in the network needs to be encrypted
+* If the network is large, the cost may quickly become extremely high for this kind of encryption, because every node in the network must be protected
+* Table 10.1 shows the process of link-by-link encryption
+
+
 ![Figure 10.1 Link encryption](2.JPG)
 
 
