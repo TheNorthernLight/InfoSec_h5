@@ -1,7 +1,7 @@
 # InfoSec_h5
 
 
-## x) Read and summarize (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like) € Schneier 2015: Applied Cryptography: 10. Using Algorigthms: 10.1, 10.2, 10.3, 10.4 (from start until the start of "Dereferencing Keys" in 10.4)
+## x) Read and summarize (Some bullets per article is enough for summary) € Schneier 2015: Applied Cryptography: 10. Using Algorigthms: 10.1, 10.2, 10.3, 10.4 (from start until the start of "Dereferencing Keys" in 10.4)
 
 
 ### 10.1 Choosing an Algorithm
@@ -22,8 +22,13 @@
 * The NSA possesses the source code for all government-approved algorithms for export.
 
 
-
 ### 10.2 Public-Key Cryptography versus Symmetric Cryptography
+
+* The comparison of public-key cryptography and symmetric cryptography is irrelevant because they serve different purposes.
+* Needham and Schroeder argued that symmetric algorithms are more efficient than public-key algorithms. However, this overlooks the security benefits of public-key cryptography.
+* Whitfield Diffie suggested the adoption of a combination of systems, where public-key systems are only used for exchanging keys for symmetric cryptography.
+* Symmetric cryptography is faster and better for encrypting data 
+while public-key cryptography is better for key management and protocols.
 
 
 ### 10.3 Encrypting Communications Channels
