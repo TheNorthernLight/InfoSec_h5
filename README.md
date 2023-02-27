@@ -82,6 +82,13 @@ while public-key cryptography is better for key management and protocols.
 
 ### 10.4 Encrypting Data for Storage 
 
+* Encryption for data storage is different from encryption for communication channels.
+* Data encrypted for storage cannot be resent like messages in transit, and may be lost forever if decryption fails.
+* Encryption applications for data storage should have mechanisms to prevent unrecoverable errors in ciphertext.
+* Keys used for data storage will be around for a long time, so key management and safety for long-term is crucial.
+* End-to-end encryption has higher secrecy level but requires a more complex key-management system and encryption in offline mode.
+
+Encrypting computer data for storage comes with various challenges such as the possibility of known-plaintext attacks, ciphertext being larger than plaintext, the need for fast encryption and decryption, and complex key management for different files and people.
 
 
 ![Comparing Link-by-Link and End-to-End Encryption](4.JPG)
