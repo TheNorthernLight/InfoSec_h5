@@ -4,21 +4,33 @@
 ## x) Read and summarize (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like) € Schneier 2015: Applied Cryptography: 10. Using Algorigthms: 10.1, 10.2, 10.3, 10.4 (from start until the start of "Dereferencing Keys" in 10.4)
 
 
-### Choosing an Algorithm:
+### 10.1 Choosing an Algorithm
 
-People have several alternatives to choose an algorithm including published algorithm, trusting a manufacturer, private consultant, government or writing their own algorithm.
-The first alternative seems to be the most sensible because trusting a single source is problematic.
-The algorithms in the book are public and have been cryptanalyzed by experts in the field.
-The abilities of military cryptanalysis organizations are unknown, so it is possible that these algorithms are easier to break than it appears.
-A good assumption is that the NSA can read any message that it chooses, but that it cannot read all messages that it chooses.
-The best most of us can do is to choose among public algorithms that have withstood a reasonable amount of public scrutiny and cryptanalysis.
+* When it comes to evaluating and choosing encryption algorithms, there are several options, including choosing a published algorithm, trusting a manufacturer or private consultant, trusting the government, or writing your own algorithm.
+* Creating your own algorithm can be a solution, but it could leave room for security flaws as it has not been tested by other experts in the field.
+* Trusting a single entity is problematic, so choosing a published algorithm is the most sensible option.
+* It is believed that algorithms approved for export by the U.S. government can be broken by the NSA, and they may even suggest deliberate weaknesses to companies wishing to export their products.
+* Relying on a company's reputation or hiring a security consultant is not a guarantee of security, since they may have limited or no knowledge of cryptography.
+* To prove that the NSA can break an algorithm, it is necessary to encrypt information of great importance that is worth demonstrating that the NSA can break it.
+* It is assumed that the NSA can read any message it chooses, but due to limited resources, it cannot read all messages it wants.
+
 
 ### Algorithms for Export:
 
-Algorithms for export out of the United States must be approved by the U.S. government.
-It is widely believed that these export-approved algorithms can be broken by the NSA.
-The NSA is rumored to privately suggest deliberate weaknesses to companies wishing to export their cryptographic products.
-Beware if you buy a U.S. encryption product that has been approved for export.
+* Algorithms for export out of the United States must be approved by the U.S. government.
+* It is widely believed that these export-approved algorithms can be broken by the NSA.
+* The NSA possesses the source code for all government-approved algorithms for export.
+
+
+
+### 10.2 Public-Key Cryptography versus Symmetric Cryptography
+
+
+### 10.3 Encrypting Communications Channels
+
+
+### 10.4 Encrypting Data for Storage 
+
 
 
 
