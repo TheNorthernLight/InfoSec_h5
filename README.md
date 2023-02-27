@@ -72,8 +72,17 @@ while public-key cryptography is better for key management and protocols.
 #### Combining the Two:
 
 
+* Combining both methods is the most effective way of securing a network
+* Encryption of each physical link makes routing information analysis impossible
+* End-to-end encryption reduces the threat of unencrypted data at the various nodes in the network
+* Key management for both approches can be completely separate
+* Network managers can take care of physical-level encryption, while users have responsibility for end-to-end encryption
+* This approach is the costliest because it requires the implementation of both encryption methods.
+
 
 ### 10.4 Encrypting Data for Storage 
+
+
 
 ![Comparing Link-by-Link and End-to-End Encryption](4.JPG)
 
@@ -102,3 +111,8 @@ while public-key cryptography is better for key management and protocols.
 
 
 ## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
+
+
+
+## References:
+*
