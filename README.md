@@ -33,9 +33,31 @@ while public-key cryptography is better for key management and protocols.
 
 ### 10.3 Encrypting Communications Channels
 
+* Encryption can take place at any layer in the OSI communications model.
+* Link-by-link encryption is done at the lowest layers, and end-to-end encryption is done at higher layers.
+* Link-by-link encryption encrypts everything going through a particular data link.
+* End-to-end encryption selectively encrypts data until they are decrypted by the intended final recipient.
+
+![Classes of Algorithms](1.JPG)
+
+
+#### Link-by-Link Encryption
+
+![Figure 10.1 Link encryption](2.JPG)
+
+
+#### End-to-End Encryption
+
+![Figure 10.2 End-to-end encryption](3.JPG)
+
+
+#### Combining the Two
+
+
 
 ### 10.4 Encrypting Data for Storage 
 
+![Comparing Link-by-Link and End-to-End Encryption](4.JPG)
 
 
 
