@@ -57,6 +57,15 @@ while public-key cryptography is better for key management and protocols.
 
 #### End-to-End Encryption:
 
+
+* Encryption and decryption at the physical layer is avoided by end-to-end encryption.
+* This Approach put encryption equipment between the network layer and the transport layer
+* End-to-end encryption keeps data encrypted until it reaches its final destination.
+* Routing information for data is not encrypted in end-to-end encryption, which can lead to traffic analysis.
+* Building end-to-end encryption approach is difficult because each particular communications system has its own protocols
+* Encryption at high layers interacts with user software and may have compatibility problems with different computer types.
+* Table 10.2 shows the process of end-to-end encryption
+
 ![Figure 10.2 End-to-end encryption](3.JPG)
 
 
