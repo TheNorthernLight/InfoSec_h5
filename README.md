@@ -222,19 +222,37 @@ When we found right key, we can import a public key from a key server
 
 ## c) Voluntary bonus: send and receive encrypted message over email.
 
-
-![GPG_use_example](15.JPG)
-![GPG_use_example](15.JPG)
-![GPG_use_example](15.JPG)
-![GPG_use_example](15.JPG)
-![GPG_use_example](15.JPG)
-
-## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
-
-
 To send and receive encrypted messages over email, we will need to use GPG and a compatible email client such as Thunderbird or Evolution.
 
+I will show how to send and receive encrypted messages over email with gpg encryption and Thunderbird on Linux.
 
+1. We have to install GPG and Thunderbird, we can do it using those commands: 
+
+        $ sudo apt-get update && sudo apt-get upgrade -y
+        $ sudo apt-get install gnupg thunderbird
+
+2. Next we have to generate a key pair. I will skip the process of generating the key pair because we already did it before. 
+
+3. Then we need to configure the Thunderbird to use gpg. 
+
+   * Open Thunderbird and go to "Edit" -> "Preferences"
+   * Select the "Account Settings" tab
+   * Select the email account you want to encrypt and click "OpenPGP Security"
+        
+![GPG_use_example](16.JPG)
+![GPG_use_example](17.JPG)
+
+I am importing a gpg public key that I have imported from the server into the file and then loading it into the Thunderbird: 
+
+        $ gpg --export --armor string_to_match > public_key.pub
+         
+![GPG_use_example](18.JPG)
+![GPG_use_example](19.JPG)
+
+
+![GPG_use_example](20.JPG)
+
+## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
 
 The rot13 encryption is a simple Caesar cipher that replaces each letter with the letter 13 positions down the alphabet. On Linux we can try it, using "tr" command.
 
