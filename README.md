@@ -281,4 +281,8 @@ The rot13  is not a secure encryption method and should not be used to protect s
 
 
 ## References:
-*
+* https://www.thunderbird.net/en-GB/
+* https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/19_chap10.html
+* https://www.lastpass.com/
+* https://keepass.com/
+* https://gnupg.org/
