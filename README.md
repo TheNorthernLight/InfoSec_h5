@@ -97,9 +97,17 @@ Encrypting computer data for storage comes with various challenges such as the p
 
 ## y) Choose a password manager and explain: 
 
+In this section, I have looked at two different password managers. The 1. an offline password manager KeePass and 2. an online password manager LastPass.
+
 ### What treaths does it protect against?
 
+1. KeePass protects against various threats including password theft, phishing, keylogging, and dictionary attacks. It stores all passwords in an encrypted database, making it more difficult for hackers to access them.
+
+2. LastPass password manager protects against various cybersecurity threats, such as phishing, password reuse, weak passwords, and brute-force attacks.
+
 ### What information is encrypted, what's not?
+
+
 
 ### What's the license? How would you describe license's effects or categorize it?
 
@@ -111,10 +119,18 @@ Encrypting computer data for storage comes with various challenges such as the p
 ## a) Demonstrate the use of a password manager.
 
 
+
+
+
 ## b) Encrypt and decrypt a message (you can use any tool you want, gpg is one option)
 
 
+
+
+
 ## c) Voluntary bonus: send and receive encrypted message over email.
+
+
 
 
 ## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
