@@ -176,9 +176,11 @@ GPG (GNU Privacy Guard) is a popular open-source encryption tool that allows use
 
         $ gpg --gen-key   
         
-We can displaying the public keys stored in the keyring
+We can displaying the public keys stored in the keyring,
        
         $ gpg --list-keys
+ 
+![GPG_use_example](11.JPG)
  
 displaying the secret keys stored in the keyring
        
@@ -186,19 +188,38 @@ displaying the secret keys stored in the keyring
         $ gpg --list-secret-keys --keyid-format short
         $ gpg --list-secret-keys --keyid-format long     
         
-![GPG_use_example](11.JPG)
+We can publishing a public key on a key server
+
+        $ gpg --keyserver hkp://pgp.mit.edu --send-keys 30E6A0BE
+ 
+![GPG_use_example](12.JPG)
+ 
+Then we can searching for a key on a key server
+
+        $ gpg --keyserver pgp.mit.edu --search-keys string_to_match
+        $ gpg --keyserver pgp.mit.edu --search-keys name@email.com      
         
+        
+![GPG_use_example](13.JPG)
+        
+When we found right key, we can import a public key from a key server
+
+        $ gpg --keyserver pgp.mit.edu  --recv string_to_match
+      
+      
+![GPG_use_example](14.JPG)
+      
 3. Then we can encrypt a message. To encrypt a message, we can use the following command:
 
-        $ gpg --encrypt --recipient name@example.com message.txt
+        $ gpg --encrypt --recipient name@email.com message.txt
         
-![GPG_use_example](12.JPG)
+![GPG_use_example](15.JPG)
 
 4. To decrypt a message we can use the following command:
 
         $ gpg --decrypt message.txt.gpg > message.txt
 
-![GPG_use_example](13.JPG)
+![GPG_use_example](16.JPG)
 
 
 ## c) Voluntary bonus: send and receive encrypted message over email.
