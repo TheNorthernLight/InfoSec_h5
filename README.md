@@ -176,6 +176,10 @@ GPG (GNU Privacy Guard) is a popular open-source encryption tool that allows use
 
         $ gpg --gen-key
         
+to see our's key, we can run the following command:
+
+        $ gpg --fingerprint     
+        
 ![GPG_use_example](11.JPG)
         
 3. Then we can encrypt a message. To encrypt a message, we can use the following command:
