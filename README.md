@@ -180,7 +180,7 @@ We can displaying the public keys stored in the keyring,
        
         $ gpg --list-keys
  
-![GPG_use_example](11.JPG)
+![GPG_use_example](111.JPG)
  
 displaying the secret keys stored in the keyring
        
