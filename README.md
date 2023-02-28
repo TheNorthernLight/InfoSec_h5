@@ -119,6 +119,22 @@ Encrypting computer data for storage comes with various challenges such as the p
 
 ## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
 
+The rot13 encryption is a simple Caesar cipher that replaces each letter with the letter 13 positions down the alphabet. On Linux we can try it, using "tr" command.
+
+At first, lets open the terminal. Then we can type the following command to encrypt text:
+
+
+      $ echo "Hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+      
+
+To decrypt the text, we can simply repeat the process:
+
+
+      $ echo "Uryyb Greb" | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+      
+      
+The rot13  is not a secure encryption method and should not be used to protect sensitive information. Doubling the rot13 encryption would provide no additional security.
+
 
 
 ## References:
