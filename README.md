@@ -138,7 +138,8 @@ In this section, I have looked at two different password managers. The 1. an off
 ## a) Demonstrate the use of a password manager.
 
 1. To use KeePass on Linux, we need to first install it. To install the KeePass, lets Open a terminal and run the following command:
-
+       
+       $ sudo apt-get update && sudo apt-get upgrade -y
        $ sudo apt-get install keepass2
       
 2. Next we can Launch KeePass. We can launch KeePass by searching for it in the applications menu or running the command in the terminal.
@@ -147,15 +148,19 @@ In this section, I have looked at two different password managers. The 1. an off
       
 3. Next we need to create a new database. To create a new password database, lets go to File > New or use the keyboard shortcut Ctrl+N. Choose a location and filename for the database, then set a strong master password.
 
-![Password_Manager_demo1Test](5.JPG)
+![Password_Manager_demoTest](5.JPG)
+![Password_Manager_demoTest](6.JPG)
 
-![Password_Manager_demo2Test](6.JPG)
 
 4. Then we have to add new password entry. We can right-click on the database and select Add Entry. Fill in the username, password, and any other relevant information.
 
-![Password_Manager_demo3Test](7.JPG)
+![Password_Manager_demoTest](7.JPG)
+![Password_Manager_demoTest](8.JPG)
+
 
 5. After adding all your password entries, save the database and close KeePass. Your passwords are now securely stored and can be accessed anytime by opening the database with KeePass and entering the master password.
+
+![Password_Manager_demoTest](9.JPG)
 
 
 ## b) Encrypt and decrypt a message (you can use any tool you want, gpg is one option)
