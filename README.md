@@ -99,21 +99,40 @@ Encrypting computer data for storage comes with various challenges such as the p
 
 In this section, I have looked at two different password managers. The 1. an offline password manager KeePass and 2. an online password manager LastPass.
 
+
 ### What treaths does it protect against?
 
 1. KeePass protects against various threats including password theft, phishing, keylogging, and dictionary attacks. It stores all passwords in an encrypted database, making it more difficult for hackers to access them.
 
 2. LastPass password manager protects against various cybersecurity threats, such as phishing, password reuse, weak passwords, and brute-force attacks.
 
+
 ### What information is encrypted, what's not?
 
+1. KeePass encrypts all the information stored in its database, including usernames, passwords, and any other notes or comments associated with the passwords. However, it does not encrypt the file names or the database structure.
+
+2. in LaspPass all sensitive information, including usernames, passwords, and credit card details, is encrypted using AES-256 encryption with PBKDF2 SHA-256 and salted hashes. LastPass encrypts the data locally before sending it to the server, and only the user can decrypt the data using their master password. Non-sensitive data, such as website URLs, is not encrypted.
 
 
 ### What's the license? How would you describe license's effects or categorize it?
 
+1. KeePass is an open-source software released under the GNU General Public License. The license grants users the freedom to run, copy, distribute, study, change, and improve the software. The software is free to use, and users are not required to pay any fees or purchase a license to use it.
+
+2. LastPass offers both free and premium versions of its password manager. The free version has basic features, while the premium version provides advanced features like multifactor authentication, priority tech support, and more. The license for the premium version is subscription-based, and the user needs to pay a yearly fee to access the premium features.
+
+
 ### Where is the data stored? If in "the cloud", which country / juristiction / which companies? If on local disk, where?
 
+1. KeePass is an offline password manager, which means that all data is stored locally on the user's computer or device. Users have complete control over their data and do not need to rely on any third-party cloud service or company to store their passwords.
+
+2. LastPass stores user data on its servers, which are located in the United States and Europe. The company claims that it uses Amazon Web Services (AWS) to host its servers, and the data is stored in multiple locations to ensure redundancy and reliability.
+
+
 ### How is the data protected?
+
+1. KeePass encrypts all data using the Advanced Encryption Standard (AES) algorithm, which is a widely accepted and secure encryption standard. The user's master password is used as the encryption key, and only the user has access to it. KeePass also offers additional security features such as two-factor authentication and the ability to lock the database after a certain period of inactivity.
+
+2. LastPass protects user data using various security measures, including AES-256 encryption, multifactor authentication, and SSL/TLS encryption for data transfer. The company also undergoes regular security audits and penetration testing to ensure the highest level of security. Additionally, LastPass provides users with tools to generate strong passwords and check for password duplicates to minimize the risk of data breaches.
 
 
 ## a) Demonstrate the use of a password manager.
