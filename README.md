@@ -147,9 +147,13 @@ In this section, I have looked at two different password managers. The 1. an off
       
 3. Next we need to create a new database. To create a new password database, lets go to File > New or use the keyboard shortcut Ctrl+N. Choose a location and filename for the database, then set a strong master password.
 
-![Password_Manager_demo](5.JPG)
+![Password_Manager_demo1Test](5.JPG)
+
+![Password_Manager_demo2Test](6.JPG)
 
 4. Then we have to add new password entry. We can right-click on the database and select Add Entry. Fill in the username, password, and any other relevant information.
+
+![Password_Manager_demo3Test](7.JPG)
 
 5. After adding all your password entries, save the database and close KeePass. Your passwords are now securely stored and can be accessed anytime by opening the database with KeePass and entering the master password.
 
