@@ -190,7 +190,7 @@ displaying the secret keys stored in the keyring
         
 We can publishing a public key on a key server
 
-        $ gpg --keyserver hkp://keyserver.ubuntu.com --send-keys 30E6A0BE
+        $ gpg --keyserver hkp://keyserver.ubuntu.com --send-keys string_to_match
  
 ![GPG_use_example](12.JPG)
  
