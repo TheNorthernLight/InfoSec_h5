@@ -164,10 +164,31 @@ In this section, I have looked at two different password managers. The 1. an off
 ![Password_Manager_demoTest](10.JPG)
 
 
-## b) Encrypt and decrypt a message (you can use any tool you want, gpg is one option)
+## b) Encrypt and decrypt a message:
 
+GPG (GNU Privacy Guard) is a popular open-source encryption tool that allows users to encrypt and decrypt messages and files.
 
+1. To encrypt a message with GPG, we have to install it. Lets open a terminal and run the following command:
+      
+        $ sudo apt-get install gnupg
+       
+2. Next we can generate a key pair. To use GPG, we will need to generate a public and private key pairs. We can do it by running the following command in a terminal.
 
+        $ gpg --gen-key
+        
+![GPG_use_example](11.JPG)
+        
+3. Then we can encrypt a message. To encrypt a message, we can use the following command:
+
+        $ gpg --encrypt --recipient name@example.com message.txt
+        
+![GPG_use_example](12.JPG)
+
+4. To decrypt a message we can use the following command:
+
+        $ gpg --decrypt message.txt.gpg > message.txt
+
+![GPG_use_example](13.JPG)
 
 
 ## c) Voluntary bonus: send and receive encrypted message over email.
@@ -182,13 +203,13 @@ The rot13 encryption is a simple Caesar cipher that replaces each letter with th
 At first, lets open the terminal. Then we can type the following command to encrypt text:
 
 
-      $ echo "Hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+       $ echo "Hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
       
 
 To decrypt the text, we can simply repeat the process:
 
 
-      $ echo "Uryyb Greb" | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+       $ echo "Uryyb Greb" | tr 'n-za-mN-ZA-M' 'a-zA-Z'
       
       
 The rot13  is not a secure encryption method and should not be used to protect sensitive information. Doubling the rot13 encryption would provide no additional security.
