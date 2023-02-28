@@ -223,9 +223,18 @@ When we found right key, we can import a public key from a key server
 ## c) Voluntary bonus: send and receive encrypted message over email.
 
 
-
+![GPG_use_example](15.JPG)
+![GPG_use_example](15.JPG)
+![GPG_use_example](15.JPG)
+![GPG_use_example](15.JPG)
+![GPG_use_example](15.JPG)
 
 ## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
+
+
+To send and receive encrypted messages over email, we will need to use GPG and a compatible email client such as Thunderbird or Evolution.
+
+
 
 The rot13 encryption is a simple Caesar cipher that replaces each letter with the letter 13 positions down the alphabet. On Linux we can try it, using "tr" command.
 
@@ -234,12 +243,14 @@ At first, lets open the terminal. Then we can type the following command to encr
 
        $ echo "Hello" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
       
+![GPG_use_example](112.JPG)
 
 To decrypt the text, we can simply repeat the process:
 
 
        $ echo "Uryyb Greb" | tr 'n-za-mN-ZA-M' 'a-zA-Z'
-      
+       
+![GPG_use_example](113.JPG)      
       
 The rot13  is not a secure encryption method and should not be used to protect sensitive information. Doubling the rot13 encryption would provide no additional security.
 
