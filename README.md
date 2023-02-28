@@ -161,6 +161,7 @@ In this section, I have looked at two different password managers. The 1. an off
 5. After adding all your password entries, save the database and close KeePass. Your passwords are now securely stored and can be accessed anytime by opening the database with KeePass and entering the master password.
 
 ![Password_Manager_demoTest](9.JPG)
+![Password_Manager_demoTest](10.JPG)
 
 
 ## b) Encrypt and decrypt a message (you can use any tool you want, gpg is one option)
