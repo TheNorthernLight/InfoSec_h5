@@ -111,7 +111,7 @@ In this section, I have looked at two different password managers. The 1. an off
 
 1. KeePass encrypts all the information stored in its database, including usernames, passwords, and any other notes or comments associated with the passwords. However, it does not encrypt the file names or the database structure.
 
-2. in LaspPass all sensitive information, including usernames, passwords, and credit card details, is encrypted using AES-256 encryption with PBKDF2 SHA-256 and salted hashes. LastPass encrypts the data locally before sending it to the server, and only the user can decrypt the data using their master password. Non-sensitive data, such as website URLs, is not encrypted.
+2. in LastPass all sensitive information, including usernames, passwords, and credit card details, is encrypted using AES-256 encryption with PBKDF2 SHA-256 and salted hashes. LastPass encrypts the data locally before sending it to the server, and only the user can decrypt the data using their master password. Non-sensitive data, such as website URLs, is not encrypted.
 
 
 ### What's the license? How would you describe license's effects or categorize it?
