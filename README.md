@@ -249,6 +249,12 @@ I am importing a gpg public key that I have imported from the server into the fi
 ![GPG_use_example](18.JPG)
 ![GPG_use_example](19.JPG)
 
+Also we will need to install a PGP encrytpion for Thenderbird. We can do it using the following steps: 
+
+* Open Thunderbird, go to "Tools" -> "Add-ons" -> "Get Add-ons", search for "Enigmail" and install it.
+* Restart Thunderbird: After installation, restart Thunderbird to activate the Enigmail add-on.
+
+Now, we are ready to send, receive and decrypt an email messages.
 
 ![GPG_use_example](20.JPG)
 
