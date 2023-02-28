@@ -190,21 +190,21 @@ displaying the secret keys stored in the keyring
         
 We can publishing a public key on a key server
 
-        $ gpg --keyserver hkp://pgp.mit.edu --send-keys 30E6A0BE
+        $ gpg --keyserver hkp://keyserver.ubuntu.com --send-keys 30E6A0BE
  
 ![GPG_use_example](12.JPG)
  
 Then we can searching for a key on a key server
 
-        $ gpg --keyserver pgp.mit.edu --search-keys string_to_match
-        $ gpg --keyserver pgp.mit.edu --search-keys name@email.com      
+        $ gpg --keyserver keyserver.ubuntu.com --search-keys string_to_match
+        $ gpg --keyserver keyserver.ubuntu.com --search-keys name@email.com      
         
         
 ![GPG_use_example](13.JPG)
         
 When we found right key, we can import a public key from a key server
 
-        $ gpg --keyserver pgp.mit.edu  --recv string_to_match
+        $ gpg --keyserver keyserver.ubuntu.com  --recv string_to_match
       
       
 ![GPG_use_example](14.JPG)
