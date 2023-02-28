@@ -219,8 +219,6 @@ When we found right key, we can import a public key from a key server
 
         $ gpg --decrypt message.txt.gpg > message.txt
 
-![GPG_use_example](16.JPG)
-
 
 ## c) Voluntary bonus: send and receive encrypted message over email.
 
