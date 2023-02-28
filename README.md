@@ -247,16 +247,16 @@ I am importing a gpg public key that I have imported from the server into the fi
         $ gpg --export --armor string_to_match > public_key.pub
          
 ![GPG_use_example](18.JPG)
-![GPG_use_example](19.JPG)
 
 Also we will need to install a PGP encrytpion for Thenderbird. We can do it using the following steps: 
 
 * Open Thunderbird, go to "Tools" -> "Add-ons" -> "Get Add-ons", search for "Enigmail" and install it.
 * Restart Thunderbird: After installation, restart Thunderbird to activate the Enigmail add-on.
 
+Next we would need to import or exchange our public keys. 
 Now, we are ready to send, receive and decrypt an email messages.
 
-![GPG_use_example](20.JPG)
+![GPG_use_example](19.JPG)
 
 ## e) Voluntary bonus, easy: try rot13, the military grade top-secret encryption of the top-2 empire of year zero. Could double rot13 provide extra security?
 
