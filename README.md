@@ -174,11 +174,17 @@ GPG (GNU Privacy Guard) is a popular open-source encryption tool that allows use
        
 2. Next we can generate a key pair. To use GPG, we will need to generate a public and private key pairs. We can do it by running the following command in a terminal.
 
-        $ gpg --gen-key
+        $ gpg --gen-key   
         
-to see our's key, we can run the following command:
-
-        $ gpg --fingerprint     
+We can displaying the public keys stored in the keyring
+       
+        $ gpg --list-keys
+ 
+displaying the secret keys stored in the keyring
+       
+        $ gpg --list-secret-keys
+        $ gpg --list-secret-keys --keyid-format short
+        $ gpg --list-secret-keys --keyid-format long     
         
 ![GPG_use_example](11.JPG)
         
